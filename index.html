@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="todo.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="deco b1"></div>
+      <div class="deco b2"></div>
+      <div class="deco b3"> </div>
+      <div class="deco b4"></div>
+     
+      <input type="checkbox" id="check" class="toggle">
+      <label for="check"></label>
+
+      <div class="box">
+        <h2>To Do List</h2>
+        <input
+          type="text"
+          placeholder="Write task here..."
+          id="inputbx"
+          minlength="1"
+          maxlength="50"
+        />
+        <ul id="list"></ul>
+      </div>
+    </div>
+    <script src="todo.js"></script>
+  </body>
+</html>
