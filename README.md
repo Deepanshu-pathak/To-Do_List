@@ -22,3 +22,5 @@ Recommend to view website in laptop or monitor for additonal animations and a wi
 Responsive design, hence can be used in small screens also.
 
 Neumorphic design for its floating look.
+
+Used localstorage for saving tasks, even if page refreshes.
